@@ -1,0 +1,115 @@
+
+
+
+body {
+    font-family: Arial; margin: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #a7b7cb;
+    flex-direction: column;
+    margin: 4rem;
+    padding-left: 300%;
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+h1 {
+    color: #000000;
+    font-size: 4rem;
+    margin-top: -100px;
+    font-style:var(#555)
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #22527e;
+    width: 100%;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+form ::placeholder{
+block-size: 10rem;
+    font-size: 1.2rem;
+}
+
+form input, form button { 
+    margin-right: 40px;
+ }
+table { 
+    width: 100%; border-collapse: collapse; margin-top: 20px; 
+}
+table, th, td {
+     border: 1px solid #ccc; 
+    }
+th, td {
+    background-color: rgb(255, 234, 0);
+    color: rgb(255, 255, 255) ;
+    font-style: calc();
+    font-size: 2rem;
+    block-size: 3rem;
+     padding: 8px; text-align:left ;
+    font-style:normal
+}
+::placeholder{
+    background-color: rgb(245, 240, 240);
+    font-size: 20px;
+    margin-top: 10rem;
+    size: 20rem;
+}
