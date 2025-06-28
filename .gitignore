@@ -1,0 +1,35 @@
+# === BACKEND (Spring Boot) ===
+Managely/target/
+Managely/.idea/
+Managely/.classpath
+Managely/.project
+Managely/.settings/
+Managely/HELP.md
+Managely/src/main/resources/application.properties
+
+# === FRONTEND (React) ===
+managely-frontend/node_modules/
+managely-frontend/build/
+managely-frontend/.env
+managely-frontend/.env.*
+
+# === GENERAL ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.class
+*.jar
+*.war
+*.iml
+
+# === IDE/Editor Specific ===
+.vscode/
+.idea/
+*.iml
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
+
